@@ -296,3 +296,5 @@ default['openstack']['network']['platform'].tap do |platform|
       ''
   end
 end
+# Enable identity registration
+default['openstack']['identity']['network']['register'] = true
